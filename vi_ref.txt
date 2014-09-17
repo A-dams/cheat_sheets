@@ -1,0 +1,72 @@
+*** GENERAL ***
+
+u       undo last change
+.       repeat last command
+J       join lines
+
+*** FILES ***
+
+:w      write (save) the current file
+:x      save and exit
+:q      quit if no changes made
+:q!     quit and discard changes
+
+*** NAVIGATION ***
+
+zz      put current line at center of window
+G       go to end of file 
+gg      go to beginning of file
+0       go to beginning of line
+$       go to end of line
+w       go to next word
+b       go back a word
+:n      go to nth line of file
+^F      scroll forward one page (^ is Ctrl-)
+^B      scroll backward one page
+^E      move screen up one line
+^Y      move screen down one line
+
+*** SPLIT WINDOW ***
+
+:vsplit    split window vertically
+C-w w     go to other window
+:q         close current window
+:e fname   open file fname for editing
+
+*** INDENTING ***
+
+>>      indent a line of code
+<<      outdent a line of code
+
+*** DELETING ***
+
+dd      delete line
+ndd     delete the next n lines
+D       delete the rest of the line
+x       delete character to the right of cursor
+X       delete character to the left of cursor
+ndw     delete the next n words
+
+*** INSERT MODE ***
+
+i       insert text before cursor
+a       append text after cursor
+I       insert before line
+A       append after line
+o       open line below and insert
+O       open line above and insert
+
+*** SEARCHING ***
+
+/string search forward for string
+?string search backward for string
+n       go to next match
+N       go to previous match
+:noh    get rid of the current search highlights
+
+*** REPLACE ***
+
+:s/pt/str/flag     Replace pt with str
+        Possible flags:
+                g       (global) replaces all occurrences of pt
+                c       confirm replaces
