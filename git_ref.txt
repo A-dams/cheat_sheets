@@ -1,0 +1,11 @@
+Git reference sheet
+~~~~~~~~~~~~~~~~~~~
+
+git init    Initialize a new git repository
+git lg      Show commits  (custom command, see .gitconfig)
+git branch  Show branches and current branch
+git status -uno     Show git status, omit untracked files
+git add     Add files to be committed
+git commit  Commit changes
+
+git help    Get help on Git.
