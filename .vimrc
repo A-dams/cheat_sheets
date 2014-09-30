@@ -14,4 +14,6 @@ if has("gui_running")
 endif
 
 " folding settings
-set foldmethod=indent
+set foldmethod=indent  "Fold code based on indent structure
+set foldignore=        "Don't ignore any lines when deciding where to fold
+set foldlevel=0
