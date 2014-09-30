@@ -1,0 +1,11 @@
+TMUX cheat sheet
+~~~~~~~~~~~~~~~~
+
+The tmux prefix is Ctrl-b by default. My .tmux file sets it to Ctrl-a.
+
+Each of the commands below should be preceded by the tmux prefix (e.g. Ctrl-a):
+
+Panes
+=====
+%   vertical split
+"   horizontal split
