@@ -15,4 +15,3 @@ endif
 
 " folding settings
 set foldmethod=indent
-set foldlevel=1

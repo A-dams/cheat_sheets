@@ -83,3 +83,5 @@ zM      Fold everything
 zr      Reduce folding (open one more level of folds throughout buffer)
 zR      Unfold everything
 
+zj      Move down to next fold
+zk      Move up to previous fold
