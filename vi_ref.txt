@@ -74,5 +74,12 @@ N       go to previous match
 *** CODE FOLDING ***
 
 za      Toggle code folding
+zo      Open the fold at the cursor
+zc      Close the fold at the curson
+
+zm      More code folding (close one more level of folds throughout buffer)
 zM      Fold everything
+
+zr      Reduce folding (open one more level of folds throughout buffer)
 zR      Unfold everything
+
