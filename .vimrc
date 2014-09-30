@@ -13,3 +13,6 @@ if has("gui_running")
    set guifont=Ubuntu\ Mono\ 11
 endif
 
+" folding settings
+set foldmethod=indent
+set foldlevel=1

@@ -70,3 +70,9 @@ N       go to previous match
         Possible flags:
                 g       (global) replaces all occurrences of pt
                 c       confirm replaces
+
+*** CODE FOLDING ***
+
+za      Toggle code folding
+zM      Fold everything
+zR      Unfold everything
